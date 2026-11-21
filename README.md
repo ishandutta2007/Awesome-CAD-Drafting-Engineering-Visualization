@@ -3,7 +3,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-CAD-Drafting-Engineering-Visualization/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-CAD-Drafting-Engineering-Visualization?style=flat-square&logo=github&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-CAD-Drafting-Engineering-Visualization/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-CAD-Drafting-Engineering-Visualization?style=flat-square&logo=github&color=gold" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-CAD-Drafting-Engineering-Visualization/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-CAD-Drafting-Engineering-Visualization?style=flat-square&logo=github&color=blue" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-CAD-Drafting-Engineering-Visualization/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License: MIT" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -65,7 +65,7 @@ Below is a breakdown of the leading hosted CAD drafting and digital-twin platfor
 
 The premier open-source repositories powering the modern CAD drafting and engineering visualization landscape. Ranked in descending order by GitHub stargazers count, with real-time social badges linking directly to their respective stargazers pages.
 
-| Repository | GitHub Stars | License | Primary Tech Stack | Description |
+| Repository | GitHub_Stars | License | Primary Tech Stack | Description |
 | :--- | :---: | :---: | :---: | :--- |
 | **[FreeCAD](https://github.com/FreeCAD/FreeCAD)** | [![Stars](https://img.shields.io/github/stars/FreeCAD/FreeCAD?style=social&color=white)](https://github.com/FreeCAD/FreeCAD/stargazers) | LGPL-2.0+ | C++, Python, Qt, OCCT | Flagship open-source parametric 3D CAD modeler featuring constraint sketcher, PartDesign, TechDraw blueprint generator, FEM, and extensive Python APIs. |
 | **[Cesium](https://github.com/CesiumGS/cesium)** | [![Stars](https://img.shields.io/github/stars/CesiumGS/cesium?style=social&color=white)](https://github.com/CesiumGS/cesium/stargazers) | Apache-2.0 | JavaScript, WebGL, glTF | Industrial-grade 3D geospatial & infrastructure digital twin visualization engine supporting 3D Tiles, massive point clouds, and precision terrain geometry. |
@@ -114,7 +114,7 @@ Contributions to this ecosystem directory are warmly welcomed! Please follow the
 2. 🌿 **Create a new branch** (`git checkout -b feature/add-cad-tool`).
 3. ✏️ **Add or update entries** in `README.md` keeping formatting consistent:
    - For SaaS: include vendor, corporate scale (market cap / valuation), exact starting price, and specific free tier/trial limits.
-   - For Open-Source: include the repo name, exact star badge with `style=social&color=white` linking to the stargazers page, license, stack, and a concise 1–2 sentence description.
+   - For Open-Source: include the repo name, exact Stars_Badge with `style=social&color=white` linking to the stargazers page, license, stack, and a concise 1–2 sentence description.
 4. 🚀 **Submit a Pull Request** with a descriptive summary of your additions.
 
 ---
