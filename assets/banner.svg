@@ -1,0 +1,201 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#050b14" />
+    </linearGradient>
+
+    <!-- Glowing Accent Gradients -->
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.8" />
+    </linearGradient>
+
+    <radialGradient id="glowOrb1" cx="20%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glowOrb2" cx="80%" cy="70%" r="50%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="cadGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.75" stroke-opacity="0.7"/>
+      <circle cx="0" cy="0" r="1" fill="#38bdf8" fill-opacity="0.3"/>
+    </pattern>
+
+    <!-- Isometric CAD Wireframe Cube -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .title-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Inter', sans-serif;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+    }
+    .subtitle-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Inter', sans-serif;
+      font-weight: 500;
+      letter-spacing: 0.2px;
+    }
+    .mono-text {
+      font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+      font-size: 13px;
+    }
+    
+    /* Subtle animations */
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.25; transform: scale(1); }
+      50% { opacity: 0.45; transform: scale(1.08); }
+    }
+    @keyframes dashCycle {
+      to { stroke-dashoffset: -40; }
+    }
+    @keyframes floatElement {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-8px); }
+    }
+    @keyframes rotateIsometric {
+      0%, 100% { transform: rotate(0deg); }
+      50% { transform: rotate(3deg); }
+    }
+
+    .pulsing-orb {
+      animation: pulseGlow 8s ease-in-out infinite;
+      transform-origin: center;
+    }
+    .dashed-wire {
+      stroke-dasharray: 6, 6;
+      animation: dashCycle 3s linear infinite;
+    }
+    .floating-badge {
+      animation: floatElement 5s ease-in-out infinite;
+    }
+    .floating-badge-delayed {
+      animation: floatElement 6s ease-in-out infinite 2s;
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#bgGrad)" />
+  <rect width="100%" height="100%" fill="url(#cadGrid)" />
+
+  <!-- Ambient Glow Orbs -->
+  <circle cx="250" cy="150" r="300" fill="url(#glowOrb1)" class="pulsing-orb" />
+  <circle cx="950" cy="280" r="320" fill="url(#glowOrb2)" class="pulsing-orb" style="animation-delay: 3s;" />
+
+  <!-- Technical CAD Blueprint Accents (Right Side Wireframe) -->
+  <g transform="translate(860, 60)" opacity="0.85">
+    <!-- Outer Blueprint Compass Ring -->
+    <circle cx="160" cy="150" r="120" fill="none" stroke="#0ea5e9" stroke-width="1" stroke-opacity="0.3" stroke-dasharray="4, 4" />
+    <circle cx="160" cy="150" r="90" fill="none" stroke="#6366f1" stroke-width="0.75" stroke-opacity="0.4" />
+    <circle cx="160" cy="150" r="5" fill="#38bdf8" />
+
+    <!-- Isometric 3D B-Rep Cube -->
+    <!-- Top Face -->
+    <polygon points="160,70 230,110 160,150 90,110" fill="#0369a1" fill-opacity="0.25" stroke="#38bdf8" stroke-width="1.8" filter="url(#glow)"/>
+    <!-- Left Face -->
+    <polygon points="90,110 160,150 160,230 90,190" fill="#1e1b4b" fill-opacity="0.5" stroke="#6366f1" stroke-width="1.8" />
+    <!-- Right Face -->
+    <polygon points="160,150 230,110 230,190 160,230" fill="#0f172a" fill-opacity="0.6" stroke="#818cf8" stroke-width="1.8" />
+
+    <!-- Internal Hidden Projection Lines -->
+    <line x1="90" y1="110" x2="160" y2="70" stroke="#38bdf8" stroke-width="1" class="dashed-wire" />
+    <line x1="160" y1="150" x2="160" y2="230" stroke="#06b6d4" stroke-width="1" stroke-opacity="0.8" />
+
+    <!-- Dimension annotations -->
+    <line x1="60" y1="110" x2="60" y2="190" stroke="#94a3b8" stroke-width="1" stroke-opacity="0.6" />
+    <polyline points="57,118 60,110 63,118" fill="none" stroke="#94a3b8" stroke-width="1" />
+    <polyline points="57,182 60,190 63,182" fill="none" stroke="#94a3b8" stroke-width="1" />
+    <text x="45" y="155" fill="#94a3b8" font-size="11" font-family="monospace" text-anchor="middle" transform="rotate(-90 45 155)">H: 80mm</text>
+
+    <line x1="90" y1="210" x2="160" y2="250" stroke="#94a3b8" stroke-width="1" stroke-opacity="0.6" />
+    <text x="125" y="245" fill="#94a3b8" font-size="11" font-family="monospace" text-anchor="middle">R: 45°</text>
+  </g>
+
+  <!-- Left Technical Coordinate Crosshair Marker -->
+  <g transform="translate(70, 50)" opacity="0.6">
+    <line x1="0" y1="20" x2="40" y2="20" stroke="#38bdf8" stroke-width="1.5" />
+    <line x1="20" y1="0" x2="20" y2="40" stroke="#38bdf8" stroke-width="1.5" />
+    <circle cx="20" cy="20" r="10" fill="none" stroke="#38bdf8" stroke-width="1" />
+    <text x="48" y="24" fill="#38bdf8" font-family="monospace" font-size="11">ORIGIN [0, 0, 0]</text>
+  </g>
+
+  <!-- FOREGROUND CONTENT: Title & Subtitle firmly in front -->
+  <g transform="translate(80, 140)">
+    <!-- Category Pill Badge -->
+    <g class="floating-badge">
+      <rect x="0" y="0" width="260" height="28" rx="14" fill="#1e293b" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.6"/>
+      <circle cx="14" cy="14" r="5" fill="#10b981" />
+      <text x="28" y="18" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11.5" font-weight="600" letter-spacing="0.5">CURATED ECOSYSTEM DIRECTORY</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="75" fill="#f8fafc" class="title-text" font-size="44" filter="drop-shadow(0 4px 12px rgba(0,0,0,0.8))">
+      CAD Drafting &amp; Engineering Visualization
+    </text>
+
+    <!-- Gradient Accent Subheading -->
+    <text x="0" y="115" fill="url(#primaryGrad)" class="title-text" font-size="24">
+      2D Drafting • Parametric 3D CAD • Digital Twins • WebGL Engines
+    </text>
+
+    <!-- Description / Tagline -->
+    <text x="0" y="152" fill="#94a3b8" class="subtitle-text" font-size="15.5">
+      The definitive directory of SaaS platforms, computational geometry engines &amp; open-source CAD ecosystems.
+    </text>
+
+    <!-- Interactive / Feature Pills -->
+    <g transform="translate(0, 185)" class="floating-badge-delayed">
+      <!-- Pill 1 -->
+      <g transform="translate(0, 0)">
+        <rect width="115" height="32" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+        <text x="57.5" y="20.5" fill="#38bdf8" class="mono-text" font-weight="bold" text-anchor="middle">⚡ FreeCAD</text>
+      </g>
+      <!-- Pill 2 -->
+      <g transform="translate(125, 0)">
+        <rect width="115" height="32" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+        <text x="57.5" y="20.5" fill="#a855f7" class="mono-text" font-weight="bold" text-anchor="middle">📐 OpenSCAD</text>
+      </g>
+      <!-- Pill 3 -->
+      <g transform="translate(250, 0)">
+        <rect width="125" height="32" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+        <text x="62.5" y="20.5" fill="#34d399" class="mono-text" font-weight="bold" text-anchor="middle">🐍 CadQuery</text>
+      </g>
+      <!-- Pill 4 -->
+      <g transform="translate(385, 0)">
+        <rect width="135" height="32" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+        <text x="67.5" y="20.5" fill="#f59e0b" class="mono-text" font-weight="bold" text-anchor="middle">🌐 Onshape/Web</text>
+      </g>
+      <!-- Pill 5 -->
+      <g transform="translate(530, 0)">
+        <rect width="130" height="32" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+        <text x="65" y="20.5" fill="#38bdf8" class="mono-text" font-weight="bold" text-anchor="middle">🌐 Cesium / iTwin</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Bottom Blueprint Ruler Bar -->
+  <g transform="translate(0, 405)" opacity="0.4">
+    <line x1="0" y1="0" x2="1200" y2="0" stroke="#38bdf8" stroke-width="1" />
+    <path d="M 0 0 L 0 -10 M 100 -5 L 100 0 M 200 -10 L 200 0 M 300 -5 L 300 0 M 400 -10 L 400 0 M 500 -5 L 500 0 M 600 -10 L 600 0 M 700 -5 L 700 0 M 800 -10 L 800 0 M 900 -5 L 900 0 M 1000 -10 L 1000 0 M 1100 -5 L 1100 0 M 1200 -10 L 1200 0" stroke="#38bdf8" stroke-width="1" />
+  </g>
+</svg>

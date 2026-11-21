@@ -1,251 +1,150 @@
-# Awesome-CAD-Drafting-Engineering-Visualization
-
-## Top CAD Drafting & Engineering Visualization Ecosystem
-
-
-
-**Curated List of SaaS/Hosted Platforms & Open-Source GitHub Projects**  
-
-*Focused on 2D/3D Parametric CAD, Engineering Visualization, Technical Dimensioning, Digital Twins & Browser CAD Engines*  
-
-**Last updated: November 2026**
-
-
-
-This repository tracks notable **SaaS/hosted platforms** and **open-source projects** for **CAD Drafting & Engineering Visualization**. These tools draft, model, dimension, simulate, visualize, and collaborate on 2D mechanical/architectural drawings, 3D parametric assemblies, point clouds, and infrastructure digital twins across cloud CAD platforms, desktop workstations, and programmatic geometry pipelines.
-
-
-
-**Examples** include AutoCAD Web, Onshape, Autodesk Forma, SketchUp Web, BricsCAD Cloud, Bentley Systems iTwin, DraftSight Cloud, Vectorworks Cloud, MicroStation, FreeCAD Cloud, and enesozturk/dimensional-drawing (the category leaders and popular runtimes). 
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for parametric 3D CAD (`FreeCAD`, `OpenSCAD`, `CadQuery`, `build123d`), precision 2D CAD drafting (`LibreCAD`, `QCAD`), technical dimensional drawing & geometry libraries (`enesozturk/dimensional-drawing`, `ezdxf`), and WebGL engineering visualization (`OpenCascade.js`, `iTwin.js`, `ParaView`) — ideal for mechanical engineers, CAD drafters, industrial designers, civil engineers, and computational geometry developers.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Support & Share](#support--share)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Onshape (PTC)](https://onshape.com)**  
-
-  Cloud-native parametric 3D CAD, PDM, and engineering collaboration platform running directly in web browsers with built-in Git-style branching and version control.
-
-
-
-- **[AutoCAD Web (Autodesk)](https://autocad.com)**  
-
-  Browser-based 2D/3D CAD drafting and DWG editing platform providing core precision drawing, annotation, layer management, and cloud file synchronization.
-
-
-
-- **[Autodesk Forma](https://autodesk.com)**  
-
-  Cloud-based early-stage planning, urban massing, and real-time environmental visualization platform for architecture, engineering, and site design teams.
-
-
-
-- **[SketchUp Web (Trimble)](https://sketchup.com)**  
-
-  Web-based 3D modeling and conceptual visualization tool paired with Trimble Connect cloud storage for rapid spatial prototyping.
-
-
-
-- **[BricsCAD Cloud (Bricsys / Hexagon)](https://bricsys.com)**  
-
-  DWG-native 2D drafting, 3D modeling, and BIM platform integrated with Bricsys 24/7 cloud collaboration and automated drawing workflows.
-
-
-
-- **[Bentley Systems iTwin & MicroStation Cloud](https://bentley.com)**  
-
-  Enterprise infrastructure CAD drafting and cloud digital-twin visualization platform for civil engineering, surveying, and large-scale 3D asset modeling.
-
-
-
-- **[DraftSight Cloud (Dassault Systèmes / 3DEXPERIENCE)](https://draftsight.com)**  
-
-  Professional 2D and 3D DWG CAD drafting solution connected to the 3DEXPERIENCE cloud for centralized lifecycle and design review workflows.
-
-
-
-- **[Vectorworks Cloud Services](https://vectorworks.net)**  
-
-  Cloud processing, rendering, and 3D model viewing service extending Vectorworks CAD/BIM workflows with automated sheet publishing and web-based walkthroughs.
-
-
-
-- **[FreeCAD Cloud (Hosted VDI / Ondsel-Inspired Cloud Workspaces)](https://freecad.org)**  
-
-  Browser-streamed and cloud-synced FreeCAD environments enabling remote parametric modeling, collaborative STEP/FCStd storage, and zero-install CAD access.
-
-
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[enesozturk/dimensional-drawing](https://github.com)**  
-
-  Open-source technical drafting and dimensional drawing toolkit engineered for generating clean, annotated engineering schematics, geometric measurements, and precision CAD visualizations.
-
-
-
-- **[FreeCAD (`FreeCAD/FreeCAD`)](https://github.com)**  
-
-  Flagship cross-platform open-source parametric 3D CAD modeler featuring constraint-based sketching, PartDesign, TechDraw 2D engineering blueprints, FEM analysis, and Python scripting.
-
-
-
-- **[LibreCAD (`LibreCAD/LibreCAD`)](https://github.com)**  
-
-  Fast, lightweight open-source 2D CAD drafting application supporting DXF reading/writing, precision snapping, dimensioning, layers, and technical blueprint generation.
-
-
-
-- **[QCAD (`qcad/qcad`)](https://github.com)**  
-
-  Cross-platform open-source 2D CAD system tailored for mechanical schematics, architectural plans, DWG/DXF interoperability, and JavaScript drafting automation.
-
-
-
-- **[OpenSCAD (`openscad/openscad`)](https://github.com)**  
-
-  Code-based open-source solid 3D CAD compiler enabling reproducible, parameterized mechanical parts, constructive solid geometry (CSG), and 2D DXF/SVG projections.
-
-
-
-- **[CadQuery (`CadQuery/cadquery`)](https://github.com)**  
-
-  Open-source Python parametric B-Rep CAD scripting framework built on OpenCascade for programmatic 3D assemblies, STEP exports, and automated engineering drawings.
-
-
-
-- **[build123d (`gumyr/build123d`)](https://github.com)**  
-
-  Modern Python boundary-representation (B-Rep) CAD modeling library offering intuitive context-based 2D/3D construction, fillets, assemblies, and technical projections.
-
-
-
-- **[ezdxf (`mozman/ezdxf`)](https://github.com)**  
-
-  Comprehensive open-source Python package for programmatically creating, inspecting, dimensioning, and modifying AutoCAD DXF drawings across all DXF versions.
-
-
-
-- **[OpenCascade.js (`donalffons/opencascade.js`)](https://github.com)**  
-
-  WebAssembly port of the industrial-grade OpenCascade 3D CAD kernel enabling full B-Rep modeling, boolean operations, and STEP/IGES visualization directly in web browsers.
-
-
-
-- **[iTwin.js (`iTwin/itwinjs-core`)](https://github.com)**  
-
-  Open-source TypeScript platform from Bentley Systems for building interactive 3D engineering visualization web applications and infrastructure digital twins.
-
-
-
-- **[ParaView (`Kitware/ParaView`)](https://github.com)**  
-
-  Industry-standard open-source multi-platform data analysis and scientific/engineering 3D visualization application for CAD meshes, CFD, and finite-element simulations.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[SolveSpace (`solvespace/solvespace`)](https://github.com)** for lightweight parametric 2D/3D constraint-based mechanical CAD and kinematic mechanism simulation.
-
-- **[BRL-CAD (`BRL-CAD/brlcad`)](https://github.com)** for battle-tested open-source constructive solid geometry (CSG) modeling, raytracing, and geometric analysis.
-
-- **[Online3DViewer (`kovacsv/Online3DViewer`)](https://github.com)** for an open-source browser-based 3D CAD/mesh viewer supporting STEP, IGES, STL, OBJ, glTF, and 3DM files.
-
-- **[Dune 3D (`dune3d/dune3d`)](https://github.com)** for a modern, fast open-source parametric 3D CAD application with constraint-driven 2D sketches and STEP export.
-
-- **[CloudCompare (`CloudCompare/CloudCompare`)](https://github.com)** for open-source 3D point cloud and triangular mesh inspection, alignment, and engineering metrology.
-
-
-
-**Frameworks for building custom systems**: Combine **FreeCAD** or **build123d** for parametric B-Rep modeling, **LibreCAD + ezdxf** for 2D DXF drafting and dimensioning, and **OpenCascade.js + Online3DViewer** for browser-native 3D engineering visualization.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS/hosted or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Support & Share
-
-
-
-If you find this curated list helpful, consider supporting the project:
-
-
-
-- ⭐ **Star this repository** to help others discover it.
-
-- 🍴 **Fork & Share** it with your team, friends, or community on X/Twitter, LinkedIn, and Reddit.
-
-- ☕ **Buy me a coffee / Sponsor** my open-source work on [GitHub Sponsors](https://github.com) — featuring tiers for profile badges, README shoutouts, logo placements, and prioritized bug fixes/features!
-
-
-
-[![Sponsor @ishandutta2007](https://shields.io)](https://github.com)
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Engineering drawings, dimensional tolerances, and 3D CAD models generated with open-source tools must be verified by qualified mechanical, civil, or structural engineers before manufacturing or construction.
-
-- Verify unit systems (metric vs. imperial) and STEP/IGES/DXF schema versions when exchanging CAD geometry across proprietary and open-source platforms.
-
-
+# 📐 Awesome-CAD-Drafting-Engineering-Visualization 🚀
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-CAD-Drafting-Engineering-Visualization/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-CAD-Drafting-Engineering-Visualization?style=flat-square&logo=github&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-CAD-Drafting-Engineering-Visualization/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-CAD-Drafting-Engineering-Visualization?style=flat-square&logo=github&color=blue" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-CAD-Drafting-Engineering-Visualization/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License: MIT" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome CAD Drafting and Engineering Visualization Banner" width="100%" />
+</p>
 
 ---
 
+## 🧭 Overview & Introduction
 
+Welcome to **Awesome-CAD-Drafting-Engineering-Visualization**, an authoritative, community-curated catalog of **SaaS/hosted CAD platforms**, **computational geometry engines**, and **open-source engineering visualization toolkits**. 
 
-**Made for mechanical engineers, CAD drafters, industrial designers, civil engineers, and open-source contributors.**  
+Whether you are an architect designing BIM layouts, a mechanical engineer building complex parametric assemblies, a civil engineer simulating massive infrastructure digital twins, or a developer constructing browser-based WebGL/WebAssembly CAD viewports, this repository indexes the leading software, libraries, and frameworks across the industry.
 
-Let's make CAD drafting and engineering visualization more open, programmable, and interoperable.
+---
+
+## 📊 Sector Overview & Market Dynamics
+
+> The global Computer-Aided Design (CAD) and 3D modeling software market is estimated at **$10.5B – $12.2B (2025–2026)**, expanding at a steady **~6.5% CAGR** toward **$18B+ by 2034**. The sector exhibits a **moderately concentrated oligopoly** at the enterprise tier—dominated by incumbents like **Autodesk, Dassault Systèmes, PTC, Hexagon, and Bentley Systems**—alongside a rapidly proliferating **fragmented ecosystem** of cloud-native browser CAD solutions, WebGL/WebGPU viewing pipelines, and community-driven open-source geometry kernels.
+
+---
+
+## 📑 Table of Contents
+
+- [🧭 Overview & Introduction](#-overview--introduction)
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted Platforms](#️-saas--hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🛠️ Architectural Blueprints & Framework Recipes](#️-architectural-blueprints--framework-recipes)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Share](#-support--share)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#️-disclaimer)
+
+---
+
+## ☁️ SaaS & Hosted Platforms
+
+Below is a breakdown of the leading hosted CAD drafting and digital-twin platforms, ranked in descending order by parent company market capitalization / corporate scale.
+
+| Platform | Parent Company / Vendor | Company Size (Market Cap / Valuation) | Starting Pricing (Paid Tiers) | Free Tier / Trial Limits | Key Capabilities |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **[AutoCAD Web](https://web.autocad.com)** | Autodesk (NASDAQ: ADSK) | **~$63 Billion** | $10/mo or $100/yr (also bundled with AutoCAD / LT desktop at $540+/yr) | **Free DWG Viewer forever** (view, pan, zoom, measure, layer inspect; editing locked) or **30-day full-feature free trial** | Browser-native 2D/3D DWG drafting, command-line drafting tools, layer management, and cloud cloud sync (Drive, OneDrive, Box). |
+| **[Autodesk Forma](https://www.autodesk.com/products/forma/overview)** | Autodesk (NASDAQ: ADSK) | **~$63 Billion** | $115/mo or $925/yr (Forma Design Collaboration / AEC Collection) | **30-day free trial** with full early-stage conceptual massing and AI environmental analytics (non-commercial evaluation only) | AI-powered conceptual urban massing, sunlight/microclimate/wind simulation, and bi-directional Revit synchronization. |
+| **[DraftSight Cloud](https://www.draftsight.com)** | Dassault Systèmes (Euronext: DSY.PA) | **~$40 Billion** | $299/yr ($24.90/mo billed annually) for DraftSight Professional | **30-day free trial** with full 2D drafting and 3D modeling features; requires paid license renewal upon expiration | Professional DWG-native 2D/3D CAD drafting connected directly to the 3DEXPERIENCE cloud platform for revision control and PDM. |
+| **[BricsCAD Cloud & 24/7](https://www.bricsys.com)** | Hexagon AB / Bricsys (Nasdaq Stockholm: HEXA B) | **~$23 Billion** | $345/yr (BricsCAD Lite); Bricsys 24/7 cloud priced by storage tiers (e.g. 10GB/30GB/60GB) | **30-day free trial** of BricsCAD Ultimate with full 2D/3D features; downgrades to perpetual view-only mode post-trial | DWG-native 2D drafting and 3D direct BIM modeling paired with Bricsys 24/7 unlimited-user cloud collaboration and sheet automation. |
+| **[Onshape](https://www.onshape.com)** | PTC Inc. (NASDAQ: PTC) | **~$21 Billion** | $1,500/yr per user (Standard tier, billed annually) | **Free Forever plan** for hobbyists/open-source makers; strictly non-commercial with unlimited public storage, but **all documents are 100% public** (capped at 10 private files / 100MB) | 100% browser-based parametric 3D CAD with built-in version control, Git-style branching/merging, real-time collaboration, and sheet drawings. |
+| **[SketchUp Web](https://www.sketchup.com/products/sketchup-for-web)** | Trimble Inc. (NASDAQ: TRMB) | **~$18 Billion** | $119/yr ($9.90/mo equivalent) for SketchUp Go | **Free Forever plan** (SketchUp Free web) with **10 GB Trimble Connect cloud storage**, standard 3D web tools, STL export; non-commercial only (DWG export & Outliner locked) | Lightweight web-based 3D surface modeling, 3D Warehouse component library access, and Trimble Connect project synchronization. |
+| **[Bentley Systems iTwin](https://www.bentley.com/software/itwin-platform/)** | Bentley Systems (NASDAQ: BSY) | **~$12 Billion** | $199/mo (Standard Developer plan includes 200 credits/mo, 50 GB data, 1 TB reality data) | **Free Community Subscription** providing **100 credits/mo**, **10 GB cloud storage**, **100 GB reality data**, capped at 500 API calls/min; non-commercial developer use | Enterprise infrastructure digital-twin platform, large-scale reality mesh streaming, iModel schema synchronization, and 4D construction sequencing. |
+| **[Vectorworks Cloud Services](https://www.vectorworks.net/cloud-services)** | Nemetschek Group (Frankfurt: NEM) | **~$12 Billion** | $90/mo ($1,080 billed annually) for Vectorworks Fundamentals | **Free Forever plan** providing **10 GB cloud storage**, Nomad mobile app access, panoramic rendering viewing, and PDF export for free account holders | Cloud processing pipeline, distributed rendering, 3D web walkthrough generation, and mobile CAD drawing markups for architects and stage designers. |
+| **[FreeCAD Cloud Workspaces](https://freecad.org)** | FreeCAD Open Ecosystem | **Open Ecosystem / Non-profit** | Community self-hosted / VDI streaming (compute instance hosting costs typically ~$15–$35/mo on AWS/Hetzner) | **100% Free and Open Source forever** (GPL / LGPL licenses); zero commercial subscription restrictions or private file lockouts | Browser-streamed or hosted virtual desktop infrastructure (VDI) running FreeCAD for remote parametric modeling, Python scripting, and STEP interchange. |
+
+---
+
+## 💻 Open-Source GitHub Projects
+
+The premier open-source repositories powering the modern CAD drafting and engineering visualization landscape. Ranked in descending order by GitHub stargazers count, with real-time social badges linking directly to their respective stargazers pages.
+
+| Repository | GitHub Stars | License | Primary Tech Stack | Description |
+| :--- | :---: | :---: | :---: | :--- |
+| **[FreeCAD](https://github.com/FreeCAD/FreeCAD)** | [![Stars](https://img.shields.io/github/stars/FreeCAD/FreeCAD?style=social&color=white)](https://github.com/FreeCAD/FreeCAD/stargazers) | LGPL-2.0+ | C++, Python, Qt, OCCT | Flagship open-source parametric 3D CAD modeler featuring constraint sketcher, PartDesign, TechDraw blueprint generator, FEM, and extensive Python APIs. |
+| **[Cesium](https://github.com/CesiumGS/cesium)** | [![Stars](https://img.shields.io/github/stars/CesiumGS/cesium?style=social&color=white)](https://github.com/CesiumGS/cesium/stargazers) | Apache-2.0 | JavaScript, WebGL, glTF | Industrial-grade 3D geospatial & infrastructure digital twin visualization engine supporting 3D Tiles, massive point clouds, and precision terrain geometry. |
+| **[OpenSCAD](https://github.com/openscad/openscad)** | [![Stars](https://img.shields.io/github/stars/openscad/openscad?style=social&color=white)](https://github.com/openscad/openscad/stargazers) | GPL-2.0 | C++, CSG, CGAL, Qt | The programmer's solid 3D CAD compiler. Generates parameterized solid models from declarative scripts via Constructive Solid Geometry (CSG) and DXF/SVG exports. |
+| **[LibreCAD](https://github.com/LibreCAD/LibreCAD)** | [![Stars](https://img.shields.io/github/stars/LibreCAD/LibreCAD?style=social&color=white)](https://github.com/LibreCAD/LibreCAD/stargazers) | GPL-2.0 | C++, Qt, DXF | High-performance, lightweight 2D CAD drafting system tailored for architectural blueprints, mechanical schematics, precision snapping, and multi-layer DXF drawing. |
+| **[GDAL](https://github.com/OSGeo/gdal)** | [![Stars](https://img.shields.io/github/stars/OSGeo/gdal?style=social&color=white)](https://github.com/OSGeo/gdal/stargazers) | MIT / X11 | C++, C, Python | Foundational geospatial and CAD vector/raster translation library powering geospatial coordinate transforms, DXF/DWG/DGN ingestion, and engineering GIS cartography. |
+| **[CadQuery](https://github.com/CadQuery/cadquery)** | [![Stars](https://img.shields.io/github/stars/CadQuery/cadquery?style=social&color=white)](https://github.com/CadQuery/cadquery/stargazers) | Apache-2.0 | Python, OpenCASCADE (OCCT) | Intuitive Python parametric B-Rep CAD scripting framework based on OpenCASCADE for algorithmic 3D assemblies, technical 2D drawings, and STEP/STL generation. |
+| **[Potree](https://github.com/potree/potree)** | [![Stars](https://img.shields.io/github/stars/potree/potree?style=social&color=white)](https://github.com/potree/potree/stargazers) | FreeBSD | JavaScript, WebGL, Three.js | WebGL-based octree point cloud renderer for massive aerial LIDAR scans, infrastructure laser surveying, and industrial plant dimensional inspection. |
+| **[CloudCompare](https://github.com/CloudCompare/CloudCompare)** | [![Stars](https://img.shields.io/github/stars/CloudCompare/CloudCompare?style=social&color=white)](https://github.com/CloudCompare/CloudCompare/stargazers) | GPL-2.0 | C++, Qt, OpenGL | 3D point cloud and triangular mesh inspection suite designed for geometric comparison, LiDAR metrology, CAD surface alignment, and deformation analysis. |
+| **[SolveSpace](https://github.com/solvespace/solvespace)** | [![Stars](https://img.shields.io/github/stars/solvespace/solvespace?style=social&color=white)](https://github.com/solvespace/solvespace/stargazers) | GPL-3.0 | C++, OpenGL | Ultra-lightweight constraint-based 2D and 3D parametric CAD modeler with integrated planar mechanism kinematics simulation, toolpath generation, and STEP export. |
+| **[build123d](https://github.com/gumyr/build123d)** | [![Stars](https://img.shields.io/github/stars/gumyr/build123d?style=social&color=white)](https://github.com/gumyr/build123d/stargazers) | Apache-2.0 | Python, OpenCASCADE | Modern, Pythonic boundary-representation (B-Rep) modeling library featuring context-manager syntax, 2D drafting, 3D complex fillets, and automated STEP exports. |
+| **[Online3DViewer](https://github.com/kovacsv/Online3DViewer)** | [![Stars](https://img.shields.io/github/stars/kovacsv/Online3DViewer?style=social&color=white)](https://github.com/kovacsv/Online3DViewer/stargazers) | MIT | JavaScript, WebGL, Three.js | Zero-dependency browser-based 3D CAD & mesh viewer supporting STEP, IGES, STL, OBJ, glTF, PLY, 3DM, and IFC formats with interactive model measuring tools. |
+| **[dimensional-drawing](https://github.com/enesozturk/dimensional-drawing)** | [![Stars](https://img.shields.io/github/stars/enesozturk/dimensional-drawing?style=social&color=white)](https://github.com/enesozturk/dimensional-drawing/stargazers) | MIT | TypeScript, SVG | Programmatic technical drafting library engineered for generating Apple-style dimensioned drawings, mechanical callouts, measurement lines, and UI schematics. |
+| **[Dune 3D](https://github.com/dune3d/dune3d)** | [![Stars](https://img.shields.io/github/stars/dune3d/dune3d?style=social&color=white)](https://github.com/dune3d/dune3d/stargazers) | GPL-3.0 | C++, OpenCASCADE | Modern, standalone parametric 3D CAD application utilizing a fast 2D constraint solver, intuitive sketcher, STEP import/export, and clean desktop ergonomics. |
+| **[QCAD](https://github.com/qcad/qcad)** | [![Stars](https://img.shields.io/github/stars/qcad/qcad?style=social&color=white)](https://github.com/qcad/qcad/stargazers) | GPL-3.0 | C++, Qt, ECMAScript | Battle-tested 2D CAD platform dedicated to mechanical schematics, architectural drawings, DWG/DXF compatibility, and automated JavaScript drafting plugins. |
+| **[ParaView](https://github.com/Kitware/ParaView)** | [![Stars](https://img.shields.io/github/stars/Kitware/ParaView?style=social&color=white)](https://github.com/Kitware/ParaView/stargazers) | BSD-3-Clause | C++, VTK, Qt, Python | Industry-standard scientific data analysis and massive 3D engineering visualization platform for finite element analysis (FEA), CFD fluid meshes, and structural stresses. |
+| **[ezdxf](https://github.com/mozman/ezdxf)** | [![Stars](https://img.shields.io/github/stars/mozman/ezdxf?style=social&color=white)](https://github.com/mozman/ezdxf/stargazers) | MIT | Python, C-Extensions | Comprehensive Python package to read, create, modify, render, and dimension AutoCAD DXF drawings across all R12 through R2018 specifications. |
+| **[BRL-CAD](https://github.com/BRL-CAD/brlcad)** | [![Stars](https://img.shields.io/github/stars/BRL-CAD/brlcad?style=social&color=white)](https://github.com/BRL-CAD/brlcad/stargazers) | LGPL / BSD | C, C++ | Over 40 years of battle-tested open-source combinatorial constructive solid geometry (CSG) modeling, raytracing, and ballistic engineering geometric analysis. |
+| **[OpenCascade.js](https://github.com/donalffons/opencascade.js)** | [![Stars](https://img.shields.io/github/stars/donalffons/opencascade.js?style=social&color=white)](https://github.com/donalffons/opencascade.js/stargazers) | MIT / LGPL | WebAssembly, C++, JS | WebAssembly port of the industrial-grade Open CASCADE Technology (OCCT) 3D CAD kernel for client-side browser B-Rep modeling, booleans, and STEP/IGES parsing. |
+| **[iTwin.js Core](https://github.com/iTwin/itwinjs-core)** | [![Stars](https://img.shields.io/github/stars/iTwin/itwinjs-core?style=social&color=white)](https://github.com/iTwin/itwinjs-core/stargazers) | Apache-2.0 | TypeScript, WebGL | Bentley's open-source TypeScript SDK for building interactive 3D digital-twin web apps, synchronizing BIM models, and streaming large-scale civil infrastructure data. |
+
+---
+
+## 🛠️ Architectural Blueprints & Framework Recipes
+
+Integrate these battle-tested combinations to develop your next custom CAD engineering tool:
+
+```
+[ Parametric B-Rep Kernels ] ---> [ 2D Drafting & Schematics ] ---> [ Web Visualization & Digital Twins ]
+   * FreeCAD / OCCT Core             * LibreCAD / QCAD                   * Cesium / iTwin.js (Geospatial)
+   * build123d / CadQuery            * ezdxf (Python Automation)         * Potree (Massive Point Clouds)
+   * OpenSCAD (Code CSG)             * dimensional-drawing (SVG)         * Online3DViewer (WebGL STEP/glTF)
+```
+
+1. **Python Algorithmic CAD Pipeline**: Use `build123d` or `CadQuery` to parametrically generate mechanical assemblies, export them to STEP, and use `ezdxf` to produce production-ready 2D DXF fabrication drawings with automatic dimension callouts.
+2. **Browser-Native WebGL CAD Studio**: Pair `OpenCascade.js` (WebAssembly) with `Online3DViewer` or `Three.js` to execute real-time B-Rep boolean operations and file inspection entirely on the user's client machine without server roundtrips.
+3. **Massive Civil Infrastructure Twins**: Stream multi-gigabyte infrastructure scans with `Potree` or `Cesium`, overlaying vector CAD alignments ingested via `GDAL` and synced through `iTwin.js`.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions to this ecosystem directory are warmly welcomed! Please follow these steps:
+
+1. 🍴 **Fork the repository** on GitHub.
+2. 🌿 **Create a new branch** (`git checkout -b feature/add-cad-tool`).
+3. ✏️ **Add or update entries** in `README.md` keeping formatting consistent:
+   - For SaaS: include vendor, corporate scale (market cap / valuation), exact starting price, and specific free tier/trial limits.
+   - For Open-Source: include the repo name, exact star badge with `style=social&color=white` linking to the stargazers page, license, stack, and a concise 1–2 sentence description.
+4. 🚀 **Submit a Pull Request** with a descriptive summary of your additions.
+
+---
+
+## 💖 Support & Share
+
+If you find this curated CAD & Engineering Visualization guide valuable:
+
+- ⭐ **Star this repository** to help fellow engineers, drafters, and developers discover it!
+- 🍴 **Fork and share** it with your engineering team, maker community, or on LinkedIn and Twitter/X.
+- ☕ **Buy me a coffee & sponsor my open-source work**: Support sustained development and maintenance on the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007) — every coffee helps keep these open resources thriving and up to date!
+
+[![Sponsor ishandutta2007](https://img.shields.io/badge/Sponsor-%E2%9D%A4-ff69b4?style=for-the-badge&logo=github-sponsors)](https://github.com/sponsors/ishandutta2007)
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-CAD-Drafting-Engineering-Visualization&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-CAD-Drafting-Engineering-Visualization&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This is a **community-curated directory** created for educational and informational purposes. Listing does not constitute an endorsement.
+- All product names, logos, and brands are property of their respective owners.
+- Engineering drawings, structural designs, and dimensional calculations created using any listed software must always be independently reviewed and certified by a licensed professional engineer (PE / CEng) prior to physical manufacturing, fabrication, or construction.
+
+---
+
+<p align="center">
+  <b>Built with ❤️ for mechanical engineers, CAD drafters, industrial designers, civil engineers, and open-source contributors worldwide.</b>
+</p>
